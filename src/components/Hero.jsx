@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero1 from '../assets/Hero1.png';
+import HeroBgImage from '../assets/HeroBgImage.png';
 
 const heroInfo = {
   specialOffer: "Special Offers",
@@ -10,7 +11,9 @@ const heroInfo = {
 
 const Hero = () => {
   return (
-    <div className='flex justify-between items-center gap-10 py-20 px-40'>
+    <div className='flex justify-between items-center gap-10 py-20 px-40 bg-gray-100 bg-cover bg-center'
+      style={{ backgroundImage: `url(${HeroBgImage})` }}
+    >
       <div className='pr-36'>
         <p className='inline-block bg-green-600 text-white text-sm rounded-full px-2'>{heroInfo.specialOffer}</p>
         <h1 className='text-5xl font-semibold my-6'>{heroInfo.title}</h1>
