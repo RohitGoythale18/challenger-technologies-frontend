@@ -13,3 +13,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.accessories-icons{
+  @apply size-7 bg-gray-300 rounded-full p-1;
+}
