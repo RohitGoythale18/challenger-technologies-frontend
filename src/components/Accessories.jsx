@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const accessoriesData = [
     { name: 'Headphones', icon: <CiHeadphones className='accessories-icons' />, path: '/headphones' },
-    { name: 'iPhone', icon: <CiMobile3 className='accessories-icons' />, path: '/iphone' },
+    { name: 'iPhone', icon: <CiMobile3 className='accessories-icons' />, path: '/iphones' },
     { name: 'Keyboards', icon: <CiKeyboard className='accessories-icons' />, path: '/keyboards' },
     { name: 'Laptops', icon: <CiLaptop className='accessories-icons' />, path: '/laptops' },
     { name: 'Monitors', icon: <RiComputerLine className='accessories-icons' />, path: '/monitors' },
