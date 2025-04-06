@@ -33,6 +33,12 @@ export const productCategories = [
                 description: 'Realme 9 Pro Plus (8gb + 128gb)'
             },
             {
+                name: 'iPhone 14 Pro Max',
+                brand: 'Apple',
+                image: IPhone14ProMax,
+                description: 'Apple iPhone 14 Pro Max (256GB, Space Black) - A16 Bionic chip, Always-On display, 48MP camera'
+            },
+            {
                 name: 'OPPO A16K',
                 brand: 'Oppo',
                 image: OppoA16K,
@@ -67,12 +73,6 @@ export const productCategories = [
                 brand: 'Apple',
                 image: IPhone14,
                 description: 'Apple iPhone 14 (128GB, Blue) - A15 Bionic chip, Dual-camera system, Crash Detection'
-            },
-            {
-                name: 'iPhone 14 Pro Max',
-                brand: 'Apple',
-                image: IPhone14ProMax,
-                description: 'Apple iPhone 14 Pro Max (256GB, Space Black) - A16 Bionic chip, Always-On display, 48MP camera'
             },
             {
                 name: 'iPhone SE (3rd Gen)',
