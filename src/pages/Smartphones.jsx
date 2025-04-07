@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Smartphones = () => {
     return (
-        <div className='flex flex-col gap-10 p-5 md:px-10 md:py-10'>
+        <div className='product-container'>
             {productCategories
                 .filter(category => category.category === 'Smartphones')
                 .map((categoryData, index) => (
@@ -24,7 +24,7 @@ const Smartphones = () => {
                                         className='h-40 object-cover rounded-md mb-2'
                                     />
                                     <h2 className='text-xl font-semibold'>{item.name}</h2>
-                                    <p className='text-gray-600'>{item.description}</p>
+                                    <p className='text-gray-600 text-sm'>{item.description}</p>
                                 </Link>
                             ))}
                         </div>

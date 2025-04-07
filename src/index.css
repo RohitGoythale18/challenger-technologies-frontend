@@ -17,3 +17,7 @@
 .accessories-icons{
   @apply size-7 bg-gray-300 rounded-full p-1;
 }
+
+.product-container{
+  @apply flex flex-col gap-10 p-5 md:px-10 md:py-10;
+}
