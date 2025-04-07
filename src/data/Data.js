@@ -1,3 +1,4 @@
+// Data.js - This file contains the product categories and their respective items for the e-shop application.
 import OnePlusNord2 from '../assets/products/OnePlusNord2.png';
 import Realme9Pro from '../assets/products/Realme9Pro.png';
 import OppoA16K from '../assets/products/OppoA16K.png';
