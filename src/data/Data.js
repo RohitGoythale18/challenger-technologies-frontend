@@ -7,7 +7,6 @@ import RealmeNarzo50 from '../assets/products/RealmeNarzo50.png';
 import SamsungA12 from '../assets/products/SamsungA12.png';
 import IPhone13 from '../assets/products/IPhone13.png';
 import IPhone14 from '../assets/products/IPhone14.png';
-import IPhone14ProMax from '../assets/products/IPhone14ProMax.png';
 import IPhoneSE3 from '../assets/products/IPhoneSE3.png';
 import IPhone12 from '../assets/products/IPhone12.png';   
 
@@ -32,12 +31,6 @@ export const productCategories = [
                 brand: 'Realme',
                 image: Realme9Pro,
                 description: 'Realme 9 Pro Plus (8gb + 128gb)'
-            },
-            {
-                name: 'iPhone 14 Pro Max',
-                brand: 'Apple',
-                image: IPhone14ProMax,
-                description: 'Apple iPhone 14 Pro Max (256GB, Space Black) - A16 Bionic chip, Always-On display, 48MP camera'
             },
             {
                 name: 'OPPO A16K',
